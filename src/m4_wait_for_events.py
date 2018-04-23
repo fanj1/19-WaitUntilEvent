@@ -491,10 +491,10 @@ def wait_for_sum_of_cubes(x):
     # ------------------------------------------------------------------
 
     a = 1
-    sum = 1
-    while sum < x:
+    t = 1
+    while t < x:
         a = a + 1
-        sum = sum + a ** 3
+        t = t + a ** 3
     return a
 
 
